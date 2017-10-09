@@ -9,7 +9,6 @@ import org.springframework.web.bind.annotation.RestController;
 import test.api.Resource.Book;
 import test.domain.service.BookService;
 
-
 @RestController
 @RequestMapping("books")
 public class BooksRestController {
